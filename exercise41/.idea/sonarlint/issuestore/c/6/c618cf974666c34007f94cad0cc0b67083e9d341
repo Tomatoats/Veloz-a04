@@ -1,0 +1,10 @@
+
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ïá™ûÿÿÿÿ8”²åîÅ/
+T
+java:S1172"2Remove this unused method parameter "sortedNames".(±Ïá™ûÿÿÿÿ8”²åîÅ/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¼òŠüÿÿÿÿ8”²åîÅ/
+N
+java:S1172",Remove this unused method parameter "names".(œ¼òŠüÿÿÿÿ8”²åîÅ/
+C
+java:S1168"&Return an empty array instead of null.(¥¹ï8”²åîÅ/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É®Üúÿÿÿÿ8—ÎáîÅ/
