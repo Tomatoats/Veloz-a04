@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class Solution41 {
+-string[]: names
+-ReadInputFrom.txt
+}
+class StringSorter
+{
+-string[]: sortedNames
++StringSorter(names){
+-Sort(names)
+-PrintToTxt(sortedNames)
+}
+Solution41 --|> StringSorter
+@enduml
