@@ -1,0 +1,24 @@
+
+E
+java:S3740#"/Provide the parametrized type for this generic.(¼žî¯
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àñåœ8üÏÔçÇ/
+C
+java:S1172"&Remove these unused method parameters.(àñåœ8€ÐÔçÇ/
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¾ó¢ýÿÿÿÿ
+I
+java:S1172".Remove this unused method parameter "counted".(â¾ó¢ýÿÿÿÿ
+<
+java:S1168"&Return an empty array instead of null.(¥¹ï
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ö¾§
+G
+java:S1172"1Remove this unused method parameter "lowerInput".(¦Ö¾§
+<
+java:S1168 "&Return an empty array instead of null.(¥¹ï
+]	java:S125"<This block of commented-out lines of code should be removed.(õèûþÿÿÿÿ8úÕßçÇ/
+c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼žî¯
+G
+java:S1172#"1Remove this unused method parameter "lowerInput".(¼žî¯
+A
+java:S1168%"+Return an empty collection instead of null.(¥¹ï
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‹ÐÔçÇ/
