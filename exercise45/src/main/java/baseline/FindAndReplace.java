@@ -4,11 +4,14 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class FindAndReplace {
-    private void FindAndReplace(ArrayList input){
+    public FindAndReplace(ArrayList<String> input) {
         //make two functions: The find and Replace and printToFile
         ArrayList<String> ReplacedInput = Replace(input);
 
         PrintToFile(ReplacedInput);
+    }
+
+    private void FindAndReplace(ArrayList input){
     }
 
     private void PrintToFile(ArrayList<String> replacedInput) {

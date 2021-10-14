@@ -1,37 +1,25 @@
 
 E
-java:S3740"/Provide the parametrized type for this generic.(åÛÏÎ
+java:S3740"/Provide the parametrized type for this generic.(åÛÏÎ
 E
-java:S3740"/Provide the parametrized type for this generic.(ÒÅ³”
-E
-java:S3740"/Provide the parametrized type for this generic.(åÛÏÎ
-E
-java:S3740"/Provide the parametrized type for this generic.(ÒÅ³”
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÛÏÎ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÛÏÎ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÀÌÅıÿÿÿÿ
+java:S3740"/Provide the parametrized type for this generic.(ÒÅ³”
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åÛÏÎ8½¦åÇ/
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÛÏÎ
+B
+java:S1172",Remove this unused method parameter "input".(åÛÏÎ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÀÌÅıÿÿÿÿ
 O
-java:S1172"4Remove this unused method parameter "replacedInput".(•ÀÌÅıÿÿÿÿ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÅ³”
-B
-java:S1172",Remove this unused method parameter "input".(ÒÅ³”
+java:S1172"4Remove this unused method parameter "replacedInput".(•ÀÌÅıÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÅ³”
+I
+java:S1172",Remove this unused method parameter "input".(ÒÅ³”8µ½¦åÇ/
 A
-java:S1168"+Return an empty collection instead of null.(¥¹ï
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ÀÌÅıÿÿÿÿ8½¼¥¶Ç/
-V
-java:S1172"4Remove this unused method parameter "replacedInput".(•ÀÌÅıÿÿÿÿ8½¼¥¶Ç/
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÅ³”
-B
-java:S1172",Remove this unused method parameter "input".(ÒÅ³”
-H
-java:S1168"+Return an empty collection instead of null.(¥¹ï8Á˜¥¶Ç/
+java:S1168!"+Return an empty collection instead of null.(¥¹ï
 I
-java:S1144"3Remove this unused private "FindAndReplace" method.(åÛÏÎ
-k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô²£•úÿÿÿÿ
-I
-java:S1144"3Remove this unused private "FindAndReplace" method.(åÛÏÎ
-k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô²£•úÿÿÿÿ
+java:S1144"3Remove this unused private "FindAndReplace" method.(åÛÏÎ
+Œ
+java:S1319"pThe type of the "input" object should be an interface such as "List" rather than the implementation "ArrayList".(à¹—l8¡˜åÇ/
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô²£•úÿÿÿÿ8µ½¦åÇ/
 b
-java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(åÛÏÎ
-b
-java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(åÛÏÎ
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(åÛÏÎ

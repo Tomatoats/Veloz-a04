@@ -30,5 +30,6 @@ public class Solution45 {
         //put in the catch
 
         //Send it to another class
-        FindAndReplace userReplace = new FindAndReplace(input)
+        FindAndReplace userReplace = new FindAndReplace(input);
     }
+}
