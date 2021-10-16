@@ -3,7 +3,7 @@ o
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£Êµú
 E
 java:S1481,"/Remove this unused "userString" local variable.(„½Ä‰
-Q
-java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8úúÛçÆ/
-M
-java:S1128"0Remove this unused import 'java.io.PrintStream'.(×ê’8úúÛçÆ/
+J
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg
+F
+java:S1128"0Remove this unused import 'java.io.PrintStream'.(×ê’

@@ -29,7 +29,7 @@ public class Solution41 {
         {
             //also use a while to make sure it continues after the delimiter
 
-            while (input.hasNext());
+            while (input.hasNext())
             { //while there is more to read
                 //put it into a arrayList
                 names.add(input.next());
