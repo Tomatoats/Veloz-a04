@@ -1,24 +1,24 @@
 
-E
-java:S3740#"/Provide the parametrized type for this generic.(¼žî¯
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àñåœ8üÏÔçÇ/
-C
-java:S1172"&Remove these unused method parameters.(àñåœ8€ÐÔçÇ/
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¾ó¢ýÿÿÿÿ
-I
-java:S1172".Remove this unused method parameter "counted".(â¾ó¢ýÿÿÿÿ
-<
-java:S1168"&Return an empty array instead of null.(¥¹ï
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ö¾§
-G
-java:S1172"1Remove this unused method parameter "lowerInput".(¦Ö¾§
-<
-java:S1168 "&Return an empty array instead of null.(¥¹ï
-]	java:S125"<This block of commented-out lines of code should be removed.(õèûþÿÿÿÿ8úÕßçÇ/
-c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼žî¯
-G
-java:S1172#"1Remove this unused method parameter "lowerInput".(¼žî¯
-A
-java:S1168%"+Return an empty collection instead of null.(¥¹ï
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‹ÐÔçÇ/
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¨”ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“±Áºøÿÿÿÿ
+@
+java:S3457"%String contains no format specifiers.(å©¿¥ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(å©¿¥ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(öì‰úùÿÿÿÿ
+K
+java:S1751""5Remove this "break" statement or make it conditional.(›ûä·
+h	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¾ó¢ýÿÿÿÿ
+c	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ççèæ
+N
+java:S1854."8Remove this useless assignment to local variable "size".(Íùú‰
+1
+java:S3626;"Remove this redundant jump.(ÉŠ©ƒ
+?
+java:S1481.")Remove this unused "size" local variable.(Íùú‰
+V	java:S1259"<This block of commented-out lines of code should be removed.(õèûþÿÿÿÿ
+l
+java:S3457A"Q%n should be used in place of \n to produce the platform-specific line separator.(ÊñÔçýÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ÊñÔçýÿÿÿÿ
+n	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(üœå
+‹
+java:S1319"uThe type of the "lowerInput" object should be an interface such as "List" rather than the implementation "ArrayList".(ß¡•˜

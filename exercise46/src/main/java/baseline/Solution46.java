@@ -1,13 +1,22 @@
 package baseline;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Locale;
+import java.util.NoSuchElementException;
+import java.util.Scanner;
 
 public class Solution46 {
 
-    private static String lowerCaseIt(String[] input){
-        //turn it into a string and use .toLowerCase
+    private static ArrayList<String> lowerCaseIt(ArrayList<String> input) {
+        //use .toLowerCase
+        for(int i = 0; i < input.size(); i++){
+            input.set(i, input.get(i).toLowerCase());
+        }
         //return the string
-        return  null;
+        return input;
     }
 
     public static void main(String[] args) throws FileNotFoundException {
@@ -28,23 +37,34 @@ public class Solution46 {
         but I'm bad at coding--I didn't pass the foundation exam
          */
 
-        //make a string[] to hold the input
-        String[] input;
+        //make an Arraylist to hold the input:
+        ArrayList<String> userinput = new ArrayList<>();
 
         //take in the  input.txt, using the try, do, and catch to make sure everything works
-
-        //also use a while to make sure it continues after the delimiter
-
-        //while there is more to read
-        //put it into a arrayList
+        try (Scanner input = new Scanner(Paths.get("exercise46_input.txt")).useDelimiter(" "))
+        {
+            //also use a while to make sure it continues after the delimiter
+            while (input.hasNext())
+            {
+                //while there is more to read
+                //put it into a arrayList
+                userinput.add(input.next());
+            }
+        }
 
         //put in the catch
 
+        catch (IOException | NoSuchElementException | IllegalStateException e)
+        {
+            e.printStackTrace();
+        }
+        //Send it to another class
 
         //send it to a function to turn the entire String[] lowercase
-        String lowerInput = lowerCaseIt(input);
+        ArrayList<String> lowerInput = lowerCaseIt(userinput);
 
         //send it to a class to count, sort, and print the histogram
         WordCounter userwords = new WordCounter(lowerInput);
 
     }
+}
