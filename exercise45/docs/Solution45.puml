@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+class Solution45 {
+ArrayList: userinput
+Takes userinput from .txt file
+}
+class FindAndReplace {
+takes userinput and replaces it, printing to file.
+-ArrayList replacedInput = Replace(userinput)
+
+
+-printToFile(replacedInput);
+}
+Solution45 -- FindAndReplace
+@enduml
