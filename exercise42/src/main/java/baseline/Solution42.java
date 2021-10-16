@@ -1,7 +1,11 @@
 package baseline;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.NoSuchElementException;
+import java.util.Scanner;
 
 public class Solution42 {
     /*
@@ -14,27 +18,33 @@ public class Solution42 {
     in there so that it looks proper.
      */
 
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws FileNotFoundException {
 
         //We're gonna use an arrayList for the sake of the psuedocode
         //but if need be we'll switch and/or convert to string[] if need be
 
         //make an Arraylist to carry all the info in,
-        ArrayList<String> input = new ArrayList<String>();
+        ArrayList<String> userinput = new ArrayList<>();
 
         //take in the  input.txt, using the try, do, and catch to make sure everything works
         //in the try, make sure to use Delimiter ","
+        try (Scanner input = new Scanner(Paths.get("exercise42_input.txt")).useDelimiter(",")) {
 
-        //also use a while to ake sure it continues after the delimiter
-        //while there is more to read
-        //put it into a arrayList
-
-
+            //also use a while to ake sure it continues after the delimiter
+            while (input.hasNext()) {
+                //while there is more to read
+                //put it into a arrayList
+                userinput.add(input.next());
+            }
+        }
         //put in the catch
+        catch (IOException | NoSuchElementException | IllegalStateException e) {
+            e.printStackTrace();
+            //send the arrayList to another class
 
-        //send the arrayList to another class
 
-        Table userTable = new Table(input);
+        }
+        new Table(userinput);
+
+        }
     }
-
-}

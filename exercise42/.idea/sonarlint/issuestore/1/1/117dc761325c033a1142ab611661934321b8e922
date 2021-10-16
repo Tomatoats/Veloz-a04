@@ -1,6 +1,5 @@
 
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇµÏðûÿÿÿÿ8Ú·ºéÆ/
-N
-java:S1172",Remove this unused method parameter "input".(ÇµÏðûÿÿÿÿ8Ú·ºéÆ/
-‹
-java:S1319"pThe type of the "input" object should be an interface such as "List" rather than the implementation "ArrayList".(ÎŒØžúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‰ðá´ÿÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ•õñúÿÿÿÿ8Ó©õ´È/
+…
+java:S1319	"pThe type of the "input" object should be an interface such as "List" rather than the implementation "ArrayList".(þ„Ø
