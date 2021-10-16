@@ -28,7 +28,7 @@ public class Solution42 {
 
         //take in the  input.txt, using the try, do, and catch to make sure everything works
         //in the try, make sure to use Delimiter ","
-        try (Scanner input = new Scanner(Paths.get("exercise42_input.txt")).useDelimiter(",")) {
+        try (Scanner input = new Scanner(Paths.get("exercise42_input.txt")).useDelimiter("\n")) {
 
             //also use a while to ake sure it continues after the delimiter
             while (input.hasNext()) {

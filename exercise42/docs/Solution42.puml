@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+Table <-- Solution42
+class Solution42{
+ArrayList: userinput
+takes in input from the input txt
+}
+class Table {
+takes in userinput from Solution42
+seperates the commas in parser
+prints it out to the output txt
+
+-parser(userinput)
+-tableOutput(SeperatedInput)
+}
+
+@enduml
