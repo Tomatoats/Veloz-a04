@@ -1,8 +1,6 @@
 package baseline;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.nio.file.Paths;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -23,9 +21,9 @@ public class Solution41 {
          */
 
         //Arraylist seemed easier so we're doing  an arrayList instead
-        ArrayList<String> names = new ArrayList<String>();
+        ArrayList<String> names = new ArrayList<>();
         //take in the  input.txt, using the try, do, and catch to make sure everything works
-        try (Scanner input = new Scanner(Paths.get("exercise41_input.txt")).useDelimiter("\n"))
+        try (Scanner input = new Scanner(Paths.get("data/exercise41_input.txt")).useDelimiter("\n"))
         {
             //also use a while to make sure it continues after the delimiter
 
@@ -41,6 +39,6 @@ public class Solution41 {
             e.printStackTrace();
             //Send it to another class
         }
-                StringSorter userString = new StringSorter(names);
+        new StringSorter(names);
             }
         }

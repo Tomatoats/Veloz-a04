@@ -5,14 +5,13 @@ import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class StringSorter {
 
 
-    private void PrintToTxt(String[] Stringnames, ArrayList names) throws FileNotFoundException {
+    private void printToTxt(String[] stringNames, ArrayList<String> names) throws FileNotFoundException {
         //PrintStream
-        PrintStream out = new PrintStream(new FileOutputStream("exercise41_output.txt"));
+        PrintStream out = new PrintStream(new FileOutputStream("data/exercise41_output.txt"));
         System.setOut(out);
 
         //Print from element 0 to the last element, the sorted names
@@ -20,35 +19,34 @@ public class StringSorter {
         System.out.printf("There are a total of %d names:%n--------------------------%n",size);
         for (int i = 0; i < size; i++)
         {
-            System.out.printf("%s", Stringnames[i]);
+            System.out.printf("%s", stringNames[i]);
         }
     }
 
 
-    private String[] Sort(String[] Stringnames) {
+    private void sort(String[] stringNames) {
         //Use arrays.Sort() to sort the string and return it
-        Arrays.sort(Stringnames);
-        return Stringnames;
+        Arrays.sort(stringNames);
     }
 
-        public StringSorter(ArrayList names) throws FileNotFoundException {
+        public StringSorter(ArrayList<String> names) throws FileNotFoundException {
             //hey so weird things are happening imma try to make this a string first in a new function
-            String[] Stringnames = Stringify(names);
+            String[] stringNames = stringify(names);
 
             //bring it to a function to sort the string [] / arrayList
-            String[] SortedNames = Sort(Stringnames);
+            sort(stringNames);
 
             //bring it to a function to print to a txt
-            PrintToTxt(Stringnames, names);
+            printToTxt(stringNames, names);
         }
 
-        private String[] Stringify(ArrayList names) {
+        private String[] stringify(ArrayList<String> names) {
             int size = names.size();
-            String[] StringName = new String[size];
+            String[] stringName = new String[size];
             for (int i = 0; i < size; i++)
             {
-                StringName[i] = (String) names.get(i);
+                stringName[i] = names.get(i);
             }
-            return StringName;
+            return stringName;
         }
     }

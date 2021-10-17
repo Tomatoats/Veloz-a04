@@ -1,23 +1,5 @@
 
-E
-java:S3740"/Provide the parametrized type for this generic.(®‹©¬
-J
-java:S3740""/Provide the parametrized type for this generic.(Ëú­ıÿÿÿÿ
-J
-java:S3740-"/Provide the parametrized type for this generic.(Ê—£¹ûÿÿÿÿ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®‹©¬
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ›½‰
-N	java:S106"9Replace this use of System.out or System.err by a logger.(üí¬Ô
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áâçù
-F
-java:S1481'"0Remove this unused "SortedNames" local variable.(±âØ©
-h	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê—£¹ûÿÿÿÿ
-M
-java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ
-‹
-java:S1319""pThe type of the "names" object should be an interface such as "List" rather than the implementation "ArrayList".(Ëú­ıÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®‹©¬
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áâçù
-k	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¾æˆıÿÿÿÿ
-f	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±âØ©
-k	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÄÆ¬üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ›½‰
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—œ®
+
+java:S1319 "pThe type of the "names" object should be an interface such as "List" rather than the implementation "ArrayList".(Õ‰‹û8ˆóÀ€É/
