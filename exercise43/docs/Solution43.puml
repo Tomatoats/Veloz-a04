@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+
+Solution43 -- siteCreator
+
+class Solution43{
+String: websiteName
+String: author
+String: javaScript
+String: css
+Takes in input from user to
+send to siteCreator
+
+-readFromUser(prompt)
+}
+class siteCreator{
+creates any folders necessary
+as well as the index.html file
+String: htmlText
+String: extension
+
+htmlText = htmlMaker;
+extension = fileMaker
+-htmlMaker(websiteName, author)
+-fileMaker(websiteName, javaScript, css)
+-filePrinter(websiteName, javaScript, css)
+-htmlPrinter(htmlTest, extension)
+}
+@enduml
