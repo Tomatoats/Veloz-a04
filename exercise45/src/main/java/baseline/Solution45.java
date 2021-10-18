@@ -25,7 +25,7 @@ public class Solution45 {
         ArrayList<String> userinput = new ArrayList<>();
 
         //take in the  input.txt, using the try, do, and catch to make sure everything works
-        try (Scanner input = new Scanner(Paths.get("exercise45_input.txt")).useDelimiter("%n")) {
+        try (Scanner input = new Scanner(Paths.get("data/exercise45_input.txt")).useDelimiter("%n")) {
             //also use a while to make sure it continues after the delimiter
             while (input.hasNext()) {
                 //while there is more to read
