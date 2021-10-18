@@ -44,7 +44,7 @@ public class SiteCreator {
     private String fileMaker(String websiteName, String javaScript, String css) throws IOException {
         //create the files needed, website/[site name]
         //as well as the html,
-        String extension = "website/"+websiteName;
+        String extension = "data/website/"+websiteName;
         new File (extension).mkdirs();
         File index = new File(extension,"index.html");
         index.createNewFile();
