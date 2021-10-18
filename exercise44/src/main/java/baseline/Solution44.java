@@ -1,8 +1,15 @@
 package baseline;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.Reader;
+import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
@@ -21,12 +28,29 @@ public class Solution44 {
       */
 
         //we're gonna put it all in an arrayList cause i'm a rat bastard like that
-
+        //ArrayList<String> products = new ArrayList<>();
         //initialize Gson
+        Product p1;
+        Product p2;
+        Product p3;
+        try {
 
-        //have it read in on what Products are
-        //convert JSON Strings to the arrayList
+            Gson gson = new Gson();
+            Reader reader = Files.newBufferedReader(Paths.get("data/exercise44_input.json"));
+            Map<?, ?> map = gson.fromJson(reader, Map.class);
+            for (Map.Entry<?, ?> entry : map.entrySet()) {
+                entry.getKey();
+                entry.getValue();
+            }
+            reader.close();
 
+            //have it read in on what Products are
+            //convert JSON Strings to the arrayList
+
+        }
+         catch (IOException | NoSuchElementException | IllegalStateException e)
+        {
+            e.printStackTrace();
         //send to another class
 
         new inventoryManager();

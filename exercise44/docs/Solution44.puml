@@ -1,0 +1,15 @@
+@startuml
+Solution44--inventoryManager
+class Solution44{
+gets things from the
+JSON input
+Map: Products
+
+}
+class inventoryManager{
+-readFromUser(prompt)
+reads from user and shows off
+the thing they wanted
+}
+
+@enduml
