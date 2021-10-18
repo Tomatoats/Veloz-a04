@@ -1,10 +1,8 @@
 package baseline;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Locale;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
@@ -15,11 +13,12 @@ public class Solution46 {
         for(int i = 0; i < input.size(); i++){
             input.set(i, input.get(i).toLowerCase());
         }
+
         //return the string
         return input;
     }
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         /*
          *  UCF COP3330 Fall 2021 Assignment 4 Solutions 46
          *  Copyright 2021 Alexys Veloz
@@ -41,7 +40,7 @@ public class Solution46 {
         ArrayList<String> userinput = new ArrayList<>();
 
         //take in the  input.txt, using the try, do, and catch to make sure everything works
-        try (Scanner input = new Scanner(Paths.get("exercise46_input.txt")).useDelimiter(" "))
+        try (Scanner input = new Scanner(Paths.get("data/exercise46_input.txt")).useDelimiter("\n"))
         {
             //also use a while to make sure it continues after the delimiter
             while (input.hasNext())
@@ -64,7 +63,7 @@ public class Solution46 {
         ArrayList<String> lowerInput = lowerCaseIt(userinput);
 
         //send it to a class to count, sort, and print the histogram
-        WordCounter userwords = new WordCounter(lowerInput);
+         new WordCounter(lowerInput);
 
     }
 }

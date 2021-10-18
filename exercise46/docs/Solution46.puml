@@ -1,0 +1,23 @@
+@startuml
+
+Solution46 -- WordCounter
+class Solution46 {
+ArrayList:userinput
+Arraylist: lowerinput
+-lowerCaseIt(userinput)
+takes in user input and
+makes it lowercase,
+sends it to word counter
+}
+
+class WordCounter{
+Int[]: counted
+int[]: sortedCounted
+counts any words that are the same
+sorts them
+and outputs them by most repeated words
+-theCounter(lowerinput)
+-theSorter(counted)
+-printer(lowerinput,counted, sortedcounted)
+}
+@enduml

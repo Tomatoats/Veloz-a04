@@ -1,24 +1,10 @@
 
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¨”ûÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(“±Áºøÿÿÿÿ
 @
 java:S3457"%String contains no format specifiers.(å©¿¥ÿÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(å©¿¥ÿÿÿÿÿ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(öì‰úùÿÿÿÿ
-K
-java:S1751""5Remove this "break" statement or make it conditional.(›ûä·
-h	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¾ó¢ıÿÿÿÿ
-c	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ççèæ
-N
-java:S1854."8Remove this useless assignment to local variable "size".(Íùú‰
-1
-java:S3626;"Remove this redundant jump.(ÉŠ©ƒ
-?
-java:S1481.")Remove this unused "size" local variable.(Íùú‰
-V	java:S1259"<This block of commented-out lines of code should be removed.(õèûşÿÿÿÿ
-l
-java:S3457A"Q%n should be used in place of \n to produce the platform-specific line separator.(ÊñÔçıÿÿÿÿ
-S	java:S106A"9Replace this use of System.out or System.err by a logger.(ÊñÔçıÿÿÿÿ
-n	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(üœå
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(’ãËºúÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(“êÒıÿÿÿÿ
 ‹
 java:S1319"uThe type of the "lowerInput" object should be an interface such as "List" rather than the implementation "ArrayList".(ß¡•˜
